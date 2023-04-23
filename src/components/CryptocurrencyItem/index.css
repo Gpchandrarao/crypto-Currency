@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+.crypto-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  width: 50%;
+}
+
+.currency-image {
+  height: 20px;
+  width: 30px;
+  padding-right: 10px;
+}
+
+.currency-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.value-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+
+.value {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
